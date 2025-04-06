@@ -5,6 +5,7 @@ function Hero() {
         <div className="flex justify-center items-center h-screen w-full bg-[D9D9D9]">
             <div className="max-w-4xl text-center">
                 <h1 className="font-bold text-5xl text-black">Subscription <br /> Symphony</h1>
+                <button className="mt-8 bg-black text-white py-3 px-6 rounded-full hover:bg-gray-800 transition duration-300">Sign Up</button>
             </div>
         </div>
     )

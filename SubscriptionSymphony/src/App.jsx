@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import Hero from "./hero";
 import ManageSubs from './manageSubs';
-
+import Pricing from './pricing';
+import Footer from '../footer';
 function App() {
   
 
@@ -9,6 +10,8 @@ function App() {
     <>
       <Hero/>
       <ManageSubs />
+      <Pricing />
+      <Footer/>
     </>
   )
 }
